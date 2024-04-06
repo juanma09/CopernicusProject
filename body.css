@@ -1,0 +1,69 @@
+body {
+    font-family: 'EB Garamond', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    position: relative;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    color: #303432;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.photo {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.details {
+    flex-grow: 1;
+}
+
+.team-member h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.team-member p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+.team-member a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.team-member a:hover {
+    text-decoration: underline;
+}

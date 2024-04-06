@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/jpg" href="Logo2.jpg">
+    <title>Team Introduction</title>
+    <style>
+        
+        body {
+       
+            line-height: 1.6;
+            background-image: url('fondo.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #131313;
+            position: relative;
+        }
+        header {
+            color: #e45a10;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+        }
+        .Logo {
+            position: absolute;
+            top: 0px;
+            left: 10px;
+            width: 100px;
+            height: 100px;
+            transition: transform 1.3s ease; 
+            
+        }
+        .Logo:hover {
+            transform: scale(1.3);
+
+    transform: rotate(360deg);
+
+        }
+        .team-member {
+            background-color: #e5e5e5c7;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px; 
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.44);
+            width: 250px; 
+            transition: transform 0.3s ease; 
+        }
+        .team-member:hover {
+            transform: translateY(-13px); 
+        }
+        .team-member img {
+            width: 100%;
+            position: relative;
+            border-radius: 8px 8px 0 0; 
+            object-fit: cover; 
+        }
+
+        .team-member h2 {
+            margin-top: 0;
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .team-member p {
+            margin: 0; 
+            font-size: 18px;
+            color: #1f1f1f;
+        }
+        .team-member a {
+            text-decoration: none;
+            color: #000000;
+            transition: color 0.3s ease; 
+        }
+        .team-member a:hover {
+            color: #535151; 
+        }
+        
+    </style>
+
+</head>
+<body>
+
+<header>
+    <h1>About Us</h1>
+</header>
+
+<main>
+    <a href="HomePage.html"><img src="Logo.png" alt="Logo" class="Logo"></a>
+
+    <div class="team-member">
+        <a href="gabi.html">
+        <img src="gabi_photo.jpg" alt="Gabriela's Photo">
+    </a>
+        <div class="details">
+            <h2><a href="gabi.html">Gabriela Sanabria</a></h2>
+            <p><strong>CEO</strong> </p>
+        </div>
+    </div>
+
+    <div class="team-member">
+        <a href="wilem.html">
+            <img src="wilem_photo.jpg" alt="Wilem's Photo">
+        </a>
+        <div class="details">
+            <h2><a href="wilem.html">Wilem Ortega</a></h2>
+            <p><strong>Design Manager</strong> </p>
+        </div>
+    </div>
+
+    <div class="team-member">
+        <a href="fabri.html">
+            <img src="fabri_photo.jpg" alt="fabri's Photo">
+        </a>
+        <div class="details">
+            <h2><a href="fabri.html">Fabrizio Coronel</a></h2>
+            <p><strong>Web Developer</strong> </p>
+        </div>
+    </div>
+
+    <div class="team-member">
+        <a href="jose.html">
+            <img src="jose_photo.jpg" alt="Jose's Photo">
+        </a>
+        <div class="details">
+            <h2><a href="jose.html">Jose Pedrozo</a></h2>
+            <p><strong>Digital Marketer</strong> </p>
+        </div>
+    </div>
+
+    <div class="team-member">
+        <a href="jossu.html">
+            <img src="jossu_photo.jpg" alt="Jossu's Photo">
+        </a>
+        <div class="details">
+            <h2><a href="jossu.html">Edward Demestri</a></h2>
+            <p><strong>Human Resources</strong> </p>
+        </div>
+    </div>
+
+</main>
+
+</body>
+</html>
